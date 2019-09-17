@@ -27,7 +27,7 @@ app.get('/api', (req, res, next) => {
 // taking 2 args: the route/path and the callback function with 3 args itself
 app.post('/api/email', (req, res, next) => {
     // API key is found my creating sendGrid account
-    sendGrid.setApiKey('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')
+    sendGrid.setApiKey('API_KEY')
 
     const msgSent = {
         to: 'khalilaudeh361997@gmail.com',
